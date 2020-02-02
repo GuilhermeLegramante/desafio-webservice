@@ -57,6 +57,11 @@
 
 	}
 
+	/*
+          A parte abaixo ainda está incompleta faltando enviar o JSON completo com os resultados obtidos
+	  A URL não está aceitando o envio de requisições POST
+	*/
+
 	$postfields = array('date'=>'30/01/2017', 'value'=>5);
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, 'https://challenge-for-adventurers.herokuapp.com/check?id=5e342ebd989a050014c61e87');
